@@ -63,3 +63,6 @@ set shiftwidth=4
 
 "To make backspace work with windows 8.1 as well
 set backspace=indent,eol,start
+
+"Preferred
+set background=dark
