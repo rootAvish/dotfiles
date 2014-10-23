@@ -81,3 +81,11 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 [[ -s '/home/rootavish/.rvm/scripts/rvm' ]] && source '/home/rootavish/.rvm/scripts/rvm'
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+#256 colors
+export TERM=xterm-256color
+
+# Base16 Shell
+BASE16_SCHEME="default"
+BASE16_SHELL="$HOME/.config/base16-shell/base16-$BASE16_SCHEME.dark.sh"
+[[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
